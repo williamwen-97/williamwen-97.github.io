@@ -1,0 +1,163 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    background: #eff4ff;
+}
+
+.wrap-container {
+    overflow: hidden;
+}
+
+.row-padding {
+    padding: 100px 0px;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.home {
+    margin-top: 110px;
+}
+
+.home h1 {
+    font-family: Lobster;
+    font-size: 60px;
+}
+
+.home h4 {
+    margin-top: 65px;
+    letter-spacing: 2px;
+}
+
+.btn {
+    background: #95b43b;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    color: white;
+    background: #bfc83e
+}
+
+.showcase {
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+
+.showcase img {
+    width: 100%;
+}
+
+h5.quote {
+    font-size: 24px;
+    line-height: 35px;
+}
+
+h6.writer {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.border-line {
+    position: relative;
+}
+
+.border-line::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 1px;
+    background: #d0d0d0;
+    left: -500px;
+    right: -500px;
+    top: 50%;
+}
+
+.card-floating {
+    border-top: 5px solid #95b43b;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-padding {
+    padding: 30px;
+}
+
+.card-title {
+    font-weight: 300;
+}
+
+.img2 img {
+    width: 50%;
+}
+
+.row-divider {
+    position: relative;
+}
+
+.row-divider::before {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 1px;
+    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0) 100%);
+    top: 0;
+    left: 50%;
+    margin-left: -40%;
+}
+
+.article img {
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.head-section {
+    margin-bottom: 60px;
+}
+
+.article h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.navbar-lebakery {
+    margin-top: 50px;
+}
+
+.logo a {
+    font-family: lobster;
+    font-size: 30px;
+}
+
+.navbar-li-lebakery li {
+    margin-left: 30px;
+}
+
+@media(max-width:540px) {
+    .navbar-lebakery {
+        top: 0px;
+        margin-top: 0px;
+        left: 0px;
+        position: fixed;
+        width: 100%;
+        background: #f9f9f9;
+        z-index: 2;
+    }
+
+    .navbar-light .navbar-toggler {
+        font-size: 16px;
+        padding: 5px 7px;
+    }
+
+    .greatCompo {
+        margin-top: 25px;
+    }
+
+    .row-padding {
+        padding: 50px 0px;
+    }
+}
